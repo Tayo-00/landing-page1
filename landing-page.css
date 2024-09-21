@@ -79,6 +79,18 @@ color: white;
     align-items: center;
   }
 
+   .second-section{
+   margin: 0;
+  }
+
+   .first-section{
+    margin: 0;
+  }
+
+  .login{
+    margin: 0;
+  }
+
   .form {
     margin-left: 0;
   }
