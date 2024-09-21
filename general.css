@@ -1,0 +1,8 @@
+.body{
+  background-image: url(background-picture/vecteezy_black-color-gradient-background-vector_26424675.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: arial;
+}
