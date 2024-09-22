@@ -73,23 +73,32 @@ color: white;
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .header{
     flex-direction: column;
     align-items: center;
-    height: 200px;
   }
+ .header{
+  height: 140px;
+ }
+ .about{
+  margin: 0;
+ }
   .second-section{
-   margin: 0;
+   width: 700px;
+   margin-left: 17px;
   }
   .first-section{
     margin: 0;
+    height: 70px;
   }
   .login{
     margin: 0;
   }
-  .structure{
-    width: 100%; /* Make the image fit smaller screens */
+  .form{
+    flex-direction: column;
+    width: 100%; /* Ensure it takes full width */
+    max-width: 100%; /* Don't exceed screen width */
   }
   .name {
     font-size: 30px;
@@ -107,20 +116,26 @@ color: white;
   border-color: rgb(50, 150, 200);}
 
 .form{
-  width: 1100px;
-  margin-top: 300px;
-  height: 450px;
+  width: 1000px;
+  height: 600px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.structure-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .structure{
-  width: 500px;
-  height: auto;
+  height: 600px;
 }
+
 .text{
   height: 450px;
   display: flex;
@@ -132,6 +147,8 @@ color: white;
   font-size: 50px;
   font-weight: bold;
   color: white;
+  justify-content: center;
+  align-items: center;
 }
 .description{
  color: white;
@@ -140,8 +157,6 @@ color: white;
 }
 .text-region{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 .book{
   padding: 8px 16px 8px 16px;
@@ -152,9 +167,12 @@ color: white;
   color: white;
   cursor: pointer;
 }
-.about{
+.about-me{
   color: white;
-  margin-top: 7px;
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-top: 5px;
+  text-align: center;
 }
-
+.about-me:hover{
+  text-decoration: underline;
+}
