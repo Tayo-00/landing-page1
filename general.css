@@ -5,4 +5,6 @@
   background-repeat: no-repeat;
   height: 100vh;
   font-family: arial;
+  padding-top: 300px;
+  overflow-x: hidden;
 }
